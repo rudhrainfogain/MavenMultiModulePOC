@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1588318952806_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1588318952824_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1588319042486_3" label="epsonlibs" name="epsonlibs">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epson-receipt-printer-jars" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposadmin" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposcorev1140001" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposcorev1140001m" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposcorev1140001T1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposd30" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposh2000" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposh6000IV" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposj7k" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposl90" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposl90linerfree" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposm30" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposmobile1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposp20" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposp60II" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposp80" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonuposprevious" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost20" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost20II" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost70II" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost81" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost81II" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost82" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost82II" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost88V" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupost88VI" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/epsonupostrace" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/pos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/posv40001" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/posv40001_01" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/posv40001_02" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/uposcommon" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/uposcommoncorev1140001" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/uposcommoncorev1140001m" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/compressed-dlls-epson" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1588318957652_2" label="Window Working Set" name="Aggregate for window 1588318957652"/>
+</workingSetManager>

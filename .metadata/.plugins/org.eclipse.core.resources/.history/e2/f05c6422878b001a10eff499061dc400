@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.demo</groupId>
+  <artifactId>ArtifactDemo</artifactId>
+  <version>${revision}</version>
+  <packaging>pom</packaging>
+  <properties>
+		<repositoryId>release</repositoryId>
+		<repositoryName>multimoduledemo</repositoryName>
+		<repositoryUrl>http://localhost:8081/nexus/content/repositories/release/</repositoryUrl>
+		<revision>0.0.1-SNAPSHOT</revision>
+		<module.version>${revision}-module</module.version>
+		<jar.version>${revision}.RELEASE</jar.version>
+	</properties>
+  <modules>
+  	<module>App</module>
+  	<module>Util</module>
+  </modules>
+</project>

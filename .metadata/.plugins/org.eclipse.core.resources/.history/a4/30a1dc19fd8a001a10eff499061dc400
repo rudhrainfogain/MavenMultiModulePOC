@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+	<groupId>com.multimodule.demo</groupId>
+			<artifactId>simple-multi</artifactId>
+			<version>0.0.1</version>
+	</parent>
+	<groupId>com.MultiModuleDependency.Demo</groupId>
+	<artifactId>MultiModuleDepenencyDemo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+<dependencies>
+<dependency>
+  <groupId>com.multimodule.demo</groupId>
+  <artifactId>app</artifactId>
+  <version>0.0.1-module</version>
+  <type>pom</type>
+  <scope>import</scope>
+</dependency>
+</dependencies>
+	<!-- <dependencies>
+		<dependency>
+			<groupId>com.multimodule.demo</groupId>
+			<artifactId>simple-multi</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.multimodule.demo</groupId>
+			<artifactId>conatiningJar</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	</dependencies> -->
+	<!-- <dependencyManagement>
+	<dependencies>
+	<dependency>
+			<groupId>com.multimodule.demo</groupId>
+			<artifactId>simple-multi</artifactId>
+			<version>0.0.1</version>
+			<type>pom</type><scope>import</scope>
+		</dependency>
+	</dependencies>
+	</dependencyManagement> -->
+	<repositories>
+		<repository>
+			<id>release</id>
+			<name>multimoduledemo</name>
+			<url>http://localhost:8081/nexus/content/repositories/release/</url>
+		</repository>
+		<repository>
+			<id>snapshot</id>
+			<name>multimoduledemo</name>
+			<url>http://localhost:8081/nexus/content/repositories/snapshot/</url>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>release</id>
+			<name>multimoduledemo</name>
+			<url>http://localhost:8081/nexus/content/repositories/release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot</id>
+			<name>multimoduledemo</name>
+			<url>http://localhost:8081/nexus/content/repositories/snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>
